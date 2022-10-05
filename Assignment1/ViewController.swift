@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     //result label
     @IBOutlet weak var ResultLabel: UILabel!
+    var result: String = ""
     
     
     override func viewDidLoad() {
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     @IBAction func OperatorButton_Pressed(_ sender: UIButton) {
     }
     @IBAction func NumberButton_Pressed(_ sender: UIButton) {
-        var button = sender as UIButton
+        let button = sender as UIButton
         ResultLabel.text = button.titleLabel!.text
     }
     
