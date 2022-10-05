@@ -13,6 +13,7 @@ import UIKit
 class ViewController: UIViewController {
 
     //result label
+    @IBOutlet weak var ResultLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -21,6 +22,17 @@ class ViewController: UIViewController {
     }
     //Event handlers
     
-
+    @IBAction func OperatorButton_Pressed(_ sender: UIButton) {
+    }
+    @IBAction func NumberButton_Pressed(_ sender: UIButton) {
+        var button = sender as UIButton
+        ResultLabel.text = button.titleLabel!.text
+    }
+    
+    @IBAction func ExtraButton_Pressed(_ sender: UIButton) {
+    }
+    
+    
+    
 }
 

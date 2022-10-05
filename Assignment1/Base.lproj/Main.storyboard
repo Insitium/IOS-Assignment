@@ -3,7 +3,6 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -40,6 +39,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zrz-o2-GCx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rw0-xJ-WeU">
                                 <rect key="frame" x="45" y="540" width="70" height="70"/>
@@ -60,6 +62,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bHs-YM-Gnb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u9-vs-70P">
                                 <rect key="frame" x="201" y="540" width="70" height="70"/>
@@ -80,6 +85,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JBm-rA-wt1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSk-ec-X62">
                                 <rect key="frame" x="123" y="540" width="70" height="70"/>
@@ -100,6 +108,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yR8-Gb-m6z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak9-WE-DBA">
                                 <rect key="frame" x="45" y="630" width="70" height="70"/>
@@ -120,6 +131,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ygR-jb-1LA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhZ-g9-tww">
                                 <rect key="frame" x="201" y="630" width="70" height="70"/>
@@ -140,6 +154,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msA-xx-KnY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQe-47-J37">
                                 <rect key="frame" x="123" y="630" width="70" height="70"/>
@@ -160,6 +177,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnZ-cQ-JYj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyp-lL-04a">
                                 <rect key="frame" x="45" y="363" width="70" height="70"/>
@@ -179,6 +199,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ExtraButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uDJ-2V-TCM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6y-Ei-uuz">
                                 <rect key="frame" x="201" y="363" width="70" height="70"/>
@@ -198,6 +221,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UWG-72-a0x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-cg-jSz">
                                 <rect key="frame" x="45" y="450" width="70" height="70"/>
@@ -218,6 +244,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Esk-wh-jh2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdV-Us-nzx">
                                 <rect key="frame" x="202" y="450" width="70" height="70"/>
@@ -238,6 +267,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IxA-aB-uiL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwZ-bo-moc">
                                 <rect key="frame" x="124" y="450" width="70" height="70"/>
@@ -258,6 +290,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DLB-rH-3sm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w1-Xr-tAH">
                                 <rect key="frame" x="287" y="541" width="70" height="70"/>
@@ -277,6 +312,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ht-gN-jd9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM6-mH-6xG">
                                 <rect key="frame" x="287" y="631" width="70" height="70"/>
@@ -296,6 +334,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xUR-hN-PUI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewl-Uf-1lb">
                                 <rect key="frame" x="287" y="720" width="70" height="70"/>
@@ -315,6 +356,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oFi-Ic-uD4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6W-bL-I1y">
                                 <rect key="frame" x="287" y="364" width="70" height="70"/>
@@ -334,6 +378,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BpX-IR-CJh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4r-vk-mLc">
                                 <rect key="frame" x="288" y="451" width="70" height="70"/>
@@ -353,28 +400,14 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7r-di-9hN"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="op bg" translatesAutoresizingMaskIntoConstraints="NO" id="moE-w6-oEF">
                                 <rect key="frame" x="28" y="199" width="340" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BIk-bR-WdX">
-                                <rect key="frame" x="38" y="237" width="320" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="0">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="36" name="Helvetica"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits"/>
-                                <imageReference key="background" image="cube.transparent" catalog="system" symbolScale="large" variableValue="0.40000000000000008"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLA-WP-6B1">
                                 <rect key="frame" x="123" y="720" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -394,6 +427,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xed-Um-cUZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jka-SW-1Tl">
                                 <rect key="frame" x="201" y="720" width="70" height="70"/>
@@ -413,6 +449,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JT7-g5-xu1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N70-IV-ecA">
                                 <rect key="frame" x="123" y="363" width="70" height="70"/>
@@ -432,11 +471,24 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ExtraButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="16X-E2-2Nq"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2T-8I-kKj">
+                                <rect key="frame" x="45" y="222" width="300" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="ResultLabel" destination="i2T-8I-kKj" id="5T5-3b-N7Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -445,7 +497,6 @@
     </scenes>
     <resources>
         <image name="New Project-modified" width="340" height="470"/>
-        <image name="cube.transparent" catalog="system" width="128" height="123"/>
         <image name="op bg" width="340" height="111"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
