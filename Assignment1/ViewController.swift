@@ -27,10 +27,44 @@ class ViewController: UIViewController {
     }
     @IBAction func NumberButton_Pressed(_ sender: UIButton) {
         let button = sender as UIButton
-        ResultLabel.text = button.titleLabel!.text
+        let buttonText = button.titleLabel?.text
+        switch(buttonText){
+        case ".":
+            if(!ResultLabel.text!.contains("."))
+            {
+                ResultLabel.text?.append(buttonText!)
+            }
+        default:
+            if(ResultLabel.text == "0"){
+                ResultLabel.text = buttonText
+            }
+            else{
+                ResultLabel.text?.append(buttonText!)
+            }
+        }
     }
     
     @IBAction func ExtraButton_Pressed(_ sender: UIButton) {
+        let button = sender as UIButton
+        let buttonText = button.titleLabel?.text
+        switch buttonText {
+        case "C":
+            ResultLabel.text = "0"
+        default:
+            if(ResultLabel.text!.count == 1 || (ResultLabel.text!.count == 2 && ResultLabel.text!.contains(".")))
+            {
+                ResultLabel.text = "0"
+            }
+            else
+            {
+                if(ResultLabel.text!.contains(".")){
+                    ResultLabel.text?.removeLast()
+                    ResultLabel.text?.removeLast()
+                }else{
+                    ResultLabel.text?.removeLast()
+                }
+            }
+        }
     }
     
     
