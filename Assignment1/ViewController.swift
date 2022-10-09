@@ -41,6 +41,7 @@ class ViewController: UIViewController {
             else{
                 ResultLabel.text?.append(buttonText!)
             }
+            
         }
     }
     
